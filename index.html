@@ -13,11 +13,10 @@
   .kicker{font-size:1rem}
   .hero,.split{grid-template-columns:1fr}
   .hero{background:#fff}
-  .nav{align-items:center;flex-wrap:wrap}
+  .nav{display:grid;grid-template-columns:1fr auto;align-items:center}
   .logo{height:104px}
   .hero .logo-panel{margin-left:0}
-.navlinks{display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem 1rem;font-size:.9rem;flex-basis:100%;order:3}  .badges,.cards,.steps{grid-template-columns:1fr}
-  .section{padding:3rem 6vw}
+.navlinks{grid-column:1 / -1;display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem 1rem;font-size:.9rem}  .section{padding:3rem 6vw}
   .topbar{font-size:.75rem}
   #contact h2{font-size:clamp(2.25rem,11vw,3.15rem);line-height:1.05}
   #contact p{font-size:1.05rem;line-height:1.6}
